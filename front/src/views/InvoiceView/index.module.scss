@@ -1,0 +1,251 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuBox {
+    height: 4%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.footerBox {
+    height: 4%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+// .doneBox,
+// .realizationBox {
+//     position: relative;
+//     width: 100%;
+//     max-height: 50%;
+//     -ms-overflow-style: none;  /* IE and Edge */
+//     scrollbar-width: none;  /* Firefox */
+//     overflow: scroll;
+// }
+
+.filterSort {
+    width: 200px;
+    height: 100%;
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+}
+
+.button {
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.element {
+    width: 100%;
+    height: 32px;
+    border-top: 1.5px solid #000;
+    border-bottom: 1.5px solid #000;
+    background-color: rgba(144, 238, 144, 0.555);
+    display: flex;
+    justify-content: space-around;
+}
+
+.link {
+    color: #000;
+    font-size: 1rem;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #adadad;
+}
+
+.contentBox {
+    position: fixed;
+    top: 4%;
+    left: 0;
+    width: 100%;
+    height: 92%;
+        -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    overflow: scroll;
+}
+
+.function,
+.data {
+    display: flex;
+}
+
+.data {
+    width: 95%;
+    height: 100%;
+}
+
+.function {
+    width: 5%;
+    height: 100%;
+}
+
+.blueBackground {
+    background-color: rgba(0, 217, 255, 0.445);
+}
+
+.blueFont {
+    color: blue;
+}
+
+.id,
+.startSurname,
+.endSurname,
+.company,
+.mailDate,
+.mailHour,
+.mailId,
+.realizationDate,
+.place,
+.position,
+.workerHour,
+.workHour,
+.clientHour,
+.workerKilometer,
+.clientKilometer,
+.route,
+.warning,
+.rSeven,
+.trainNumber,
+.mechanic,
+.addedCoast,
+.delete,
+.jobSurname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Poppins';
+    font-size: 10px;
+    outline: none;
+    height: 100%;
+    border-right: 2px solid #000;
+    text-align: center;
+}
+
+.id {
+    width: 1.5%;
+}
+  
+.startSurname,
+.endSurname,
+.company {
+    width: 4.375%;
+}
+
+.mailDate,
+.realizationDate,
+.mechanic,
+.addedCoast {
+    width: 4.166666666666666%;
+}
+
+.mailHour {
+    width: 2.604166666666667%;
+}
+
+.mailId,
+.jobSurname {
+    width: 5.5%;
+}
+
+.place,
+.route,
+.warning {
+    width: 11%;
+}
+
+.position {
+    width: 3.3854166666666665%;
+}
+
+.workerHour,
+.clientHour {
+    width: 0.9375%;
+}
+
+.workHour {
+    width: 3.4375%;
+}
+
+.workerKilometer,
+.clientKilometer,
+.delete {
+    width: 1.4583333333333335%;
+}
+
+.rSeven {
+    width: 1.0416666666666665%;
+}
+
+.trainNumber {
+    width: 3.125%;
+}
+
+.add {
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: 700;
+}
+
+.inputs {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 10px;
+}
+
+.inputs::placeholder {
+    font-family: 'Poppins';
+    font-size: 10px;
+}
+
+.confirmButton {
+    border: none;
+    outline: none;
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.confirmButton:hover {
+    background-color: #ccc;
+}
+
+

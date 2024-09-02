@@ -50,7 +50,7 @@
 .button {
     border-left: 1px solid #000;
     border-right: 1px solid #000;
-    width: 33.3%;
+    width: 25%;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -63,7 +63,19 @@
     height: 32px;
     border-top: 1.5px solid #000;
     border-bottom: 1.5px solid #000;
-    background-color: rgba(144, 238, 144, 0.555);
+    background-color: rgba(0, 110, 9, 0.199);
+    display: flex;
+    justify-content: space-around;
+}
+
+.elementFixed {
+    position: fixed;
+    z-index: 444;
+    top: 4%;
+    width: 100%;
+    height: 3%;
+    border-bottom: 1.5px solid #000;
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
 }
@@ -84,11 +96,11 @@
 
 .contentBox {
     position: fixed;
-    top: 4%;
+    top: 7%;
     left: 0;
     width: 100%;
-    height: 92%;
-        -ms-overflow-style: none;  /* IE and Edge */
+    height: 89%;
+    -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
     overflow: scroll;
 }
@@ -109,11 +121,13 @@
 }
 
 .blueBackground {
-    background-color: rgba(0, 217, 255, 0.445);
+    background-color: rgba(0, 217, 255, 0.527);
 }
 
 .blueFont {
-    color: blue;
+    color: rgb(234, 0, 255);
+    font-weight: 900;
+    font-family: 'poppins';
 }
 
 .id,
@@ -138,7 +152,8 @@
 .mechanic,
 .addedCoast,
 .delete,
-.jobSurname {
+.jobSurname,
+.invoice {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -192,7 +207,8 @@
     width: 0.9375%;
 }
 
-.workHour {
+.workHour,
+.invoice {
     width: 3.4375%;
 }
 
@@ -220,6 +236,15 @@
     width: 100%;
     height: 100%;
     border: none;
+    outline: none;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 10px;
+}
+
+.inputsTwo {
+    border: none;
+    border-right: 2px solid #000;
     outline: none;
     text-align: center;
     font-family: 'Poppins';
